@@ -83,7 +83,7 @@ export function MapSection() {
                   <p className="text-muted-foreground leading-relaxed">
                     KapanaPlovdiv Center
                     <br />
-                    ul. "Zhelezarska" 13
+                    ul. &quot;Zhelezarska&quot; 13
                     <br />
                     4000 Plovdiv
                   </p>
