@@ -41,64 +41,66 @@
   font-display: swap;
 }
 
-/* Light Mode Renkleri */
+/* Light Mode Renkleri - Yeşil Tema */
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1a1a1a;
 
-  /* Özel Marka Renkleri */
-  --primary: #2563eb;
+  /* Yeşil Bazlı Marka Renkleri */
+  --primary: #16a34a;
   --primary-foreground: #ffffff;
-  --secondary: #f1f5f9;
-  --secondary-foreground: #0f172a;
-  --accent: #f59e0b;
+  --secondary: #f0fdf4;
+  --secondary-foreground: #166534;
+  --accent: #22c55e;
   --accent-foreground: #ffffff;
-  --muted: #f8fafc;
-  --muted-foreground: #64748b;
-  --border: #e2e8f0;
-  --input: #e2e8f0;
-  --ring: #2563eb;
+  --muted: #f7faf7;
+  --muted-foreground: #6b7280;
+  --border: #d1fae5;
+  --input: #e5f3e5;
+  --ring: #16a34a;
   --card: #ffffff;
-  --card-foreground: #171717;
+  --card-foreground: #1a1a1a;
   --popover: #ffffff;
-  --popover-foreground: #171717;
+  --popover-foreground: #1a1a1a;
   --destructive: #ef4444;
   --destructive-foreground: #ffffff;
   --success: #10b981;
   --success-foreground: #ffffff;
   --warning: #f59e0b;
   --warning-foreground: #ffffff;
+  --info: #3b82f6;
+  --info-foreground: #ffffff;
 }
 
-/* Dark Mode Renkleri */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Dark Mode Renkleri - Yeşil Tema */
+.dark {
+  --background: #0f0f0f;
+  --foreground: #fafafa;
 
-    /* Dark Mode Özel Renkleri */
-    --primary: #3b82f6;
-    --primary-foreground: #ffffff;
-    --secondary: #1e293b;
-    --secondary-foreground: #f1f5f9;
-    --accent: #fbbf24;
-    --accent-foreground: #0f172a;
-    --muted: #1e293b;
-    --muted-foreground: #94a3b8;
-    --border: #334155;
-    --input: #334155;
-    --ring: #3b82f6;
-    --card: #1e293b;
-    --card-foreground: #f1f5f9;
-    --popover: #1e293b;
-    --popover-foreground: #f1f5f9;
-    --destructive: #f87171;
-    --destructive-foreground: #ffffff;
-    --success: #34d399;
-    --success-foreground: #ffffff;
-    --warning: #fbbf24;
-    --warning-foreground: #0f172a;
-  }
+  /* Dark Mode Yeşil Renkleri */
+  --primary: #22c55e;
+  --primary-foreground: #ffffff;
+  --secondary: #0a1f0a;
+  --secondary-foreground: #d1fae5;
+  --accent: #4ade80;
+  --accent-foreground: #0f172a;
+  --muted: #1a1a1a;
+  --muted-foreground: #a3a3a3;
+  --border: #262626;
+  --input: #1a1a1a;
+  --ring: #22c55e;
+  --card: #1a1a1a;
+  --card-foreground: #fafafa;
+  --popover: #1a1a1a;
+  --popover-foreground: #fafafa;
+  --destructive: #f87171;
+  --destructive-foreground: #ffffff;
+  --success: #34d399;
+  --success-foreground: #ffffff;
+  --warning: #fbbf24;
+  --warning-foreground: #0f172a;
+  --info: #60a5fa;
+  --info-foreground: #ffffff;
 }
 
 /* Tailwind CSS v4 Theme Yapılandırması */
@@ -127,6 +129,8 @@
   --color-success-foreground: var(--success-foreground);
   --color-warning: var(--warning);
   --color-warning-foreground: var(--warning-foreground);
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
 
   /* Font Ailesi */
   --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system,
